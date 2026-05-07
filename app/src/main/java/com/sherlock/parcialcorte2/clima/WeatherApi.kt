@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 // COLOCA TU API KEY AQUÍ
-const val OPENWEATHER_API_KEY = "7b4dab9e9a862c327bfb0b37834fa9a2"
+const val OPENWEATHER_API_KEY = "API-KEY of openweathermap"
 
 data class WeatherResponse(
     val main: MainData,
